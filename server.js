@@ -14,4 +14,4 @@ app.disable('x-powered-by');
 app.use('/', indexRoutes);
 
 //Start the server
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8000);
